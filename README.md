@@ -62,13 +62,13 @@ Becasue of family plans my overall time frame for this project has been reduced 
 
 Monday April 19
 
-9:15AM - 11:30AM = Rework my project proposal
-11:30AM - 12:30PM = Get approval for project / meeting with Steve
-12:30PM - 1:30PM = LUNCH BREAK
-1:30PM - 2:00PM = Create all raw documents necessary, create HTML boiler plate and connect together index.html, style.css, app.js and the API key and partner token
-2:00PM - 2:30PM = Create header, body and footer tags. Add divs and inputs within to enter vin number. Drop down menu for the make, model, year, etc. 
-2:30PM - 3:00PM = Review HTML / mental break
-3:00PM - 3:30PM = Create and interactive drop down menu that asks for vehicle parameters such as make, model, year, etc. Along side make an alternative method for an input box for your VIN #
-3:30PM - 4:30PM = Implement proper tags, form eventhandlers, creeating dynamic image and header tags to display API information, delete previous tags
-4:30PM - 5:00PM = Review JS / Mental Break
-5:00PM - 5:30PM = Basic 
+- 9:15AM - 11:30AM = Rework my project proposal
+- 11:30AM - 12:30PM = Get approval for project / meeting with Steve
+- 12:30PM - 1:30PM = LUNCH BREAK
+- 1:30PM - 2:00PM = Create all raw documents necessary, create HTML boiler plate and connect together index.html, style.css, app.js and the API key and partner token
+- 2:00PM - 2:30PM = Create header, body and footer tags. Add divs and inputs within to enter vin number. Drop down menu for the make, model, year, etc. 
+- 2:30PM - 3:00PM = Review HTML / BREAK
+- 3:00PM - 3:30PM = Create and interactive drop down menu that asks for vehicle parameters such as make, model, year, etc. Along side make an alternative method for an input box for your VIN #
+- 3:30PM - 4:30PM = Implement proper tags, form eventhandlers, DOM manipulation, creeating dynamic image and header tags to display API information, delete previous tags
+- 4:30PM - 5:00PM = Review JS / BREAK
+- 5:00PM - 5:30PM = Basic CSS manipulation, background colors, font size / family, colors and text styles(italics/bold)
