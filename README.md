@@ -31,23 +31,11 @@ https://www.carmd.com/car-image-api/
 
 ### MVP
 
-1. Built with HTML, CSS, and JavaScript.
-1. Styled using `Flexbox` or `Grid`.
-1. Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
-1. Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc).
-1. Fulfill the build requirements you have specified in your MVP.
-1. Deployed site to a hosting service like [Github Pages](https://pages.github.com/).
-1. Make commits to GitHub every day.
-1. A `README.md` file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as ```npm i```.
+
 
 ### Post-MVP
 
-- Look into [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) so you can save data to the user's browser 
-- Add a second API.
-- Add creative use of event listeners and UI interaction.
-- Add media queries for responsive design.
-- Add animations.
-- Get input from a UX student on how to make your app have intuitive UI and design.
+
 
 ### Goals
 
