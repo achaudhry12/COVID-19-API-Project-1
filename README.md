@@ -12,7 +12,7 @@ The One API - https://the-one-api.dev/
 
 `GET https://the-one-api.dev/v2/book`
 
-`{
+``{
     "docs": [
         {
             "_id": "5cf5805fb53e011a64671582",
@@ -32,11 +32,11 @@ The One API - https://the-one-api.dev/
     "offset": 0,
     "page": 1,
     "pages": 1
-}`
+}``
     
 `GET https://the-one-api.dev/v2/book/5cf58080b53e011a64671584/chapter`
 
-`{
+``{
     "docs": [
         {
             "_id": "5cdc25d5bc17e929cf246217",
@@ -139,7 +139,7 @@ The One API - https://the-one-api.dev/
     "offset": 0,
     "page": 1,
     "pages": 1
-}`
+}``
 
 
 ### **Wireframe:**
