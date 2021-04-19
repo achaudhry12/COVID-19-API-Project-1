@@ -34,7 +34,7 @@ https://www.carmd.com/car-image-api/
 - Need a drop down menu that can acess every model, color, manufacturer, trim, etc
 - Need a input area to help supplement a secondary input of a VIN number
 - From the vechile vin # the application should be able to figure out what the vehicle's matching image is and as well as other statistics about it.
-- Be able 
+- Be able to pull up multiple results from a select choice of specs
 - Use responsive design by implementing media queries
 - Use flexbox to help organzie webpage
 
