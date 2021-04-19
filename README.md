@@ -28,11 +28,11 @@ https://www.carmd.com/car-image-api/
 
 ### API Snippet:
 
-{
+`{
   "content-type":"application/json",
   "authorization":"M2UyNzgzNzQtYjExNy00YTE0LTk1NDItY2ZhZTljM2NkNjU3",
   "partner-token":"97737668c9244379b1eb58bebef1ae8b"
-}                           
+}`                           
 
 
 
