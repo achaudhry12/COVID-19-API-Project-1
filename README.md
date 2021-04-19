@@ -2,11 +2,9 @@
 
 ### Application Description:
 
-1. 
+1. Displays image of vehicle
 
-2. Displays image of vehicle
-
-3. Displays specfications such as:
+2. Displays specfications such as:
 - Year
 - Make
 - Model
@@ -50,7 +48,11 @@ https://www.carmd.com/car-image-api/
 
 ### Goals
 
+The goal at the end of April 19th is to have all the JS and HTML done and finalized (if there is time add another API!)
 
+The goal at the end of April 20th is to have all the CSS styling put on there and make the website look nice
+
+The goal at the end of April 21st is to help refine the site more, add media queries to enable more flexiblity across displays, go through entire code, debug if necessary
 
 ### Priority Matrix
 
