@@ -27,7 +27,7 @@ https://www.carmd.com/car-image-api/
 
 ### **Wireframe:**
 
-
+![image](https://user-images.githubusercontent.com/82814499/115266077-df686000-a105-11eb-9ed3-734cc61843cb.png)
 
 ### **MVP:**
 
@@ -74,4 +74,30 @@ Becasue of family plans my overall time frame for this project has been reduced 
 | 3:30PM - 4:30PM       |     Implement proper tags, form eventhandlers, DOM manipulation, creeating dynamic image and header tags to display API information, delete previous tags    |
 | 4:30PM - 5:00PM       |     Review JS / BREAK    |    
 | 5:00PM - 5:30PM       |     Basic CSS manipulation, background colors, font size / family, colors and text styles(italics/bold)    |
+
+|  **Tuesday April 20**  |  **TASKS**  |
+| ---                 | ---       |
+| 9:15AM - 12:00AM      |         |    
+| 12:00PM - 12:30PM     |         |
+| 12:30PM - 1:30PM      |     LUNCH BREAK    |    
+| 1:30PM - 2:00PM       |         |
+| 2:00PM - 2:30PM       |         |    
+| 2:30PM - 3:00PM       |         |
+| 3:00PM - 3:30PM       |         |    
+| 3:30PM - 4:30PM       |         |
+| 4:30PM - 5:00PM       |         |    
+| 5:00PM - 5:30PM       |         |
+
+|  **Wednesday April 21**  |  **TASKS**  |
+| ---                 | ---       |
+| 9:15AM - 12:00AM      |         |    
+| 12:00PM - 12:30PM     |         |
+| 12:30PM - 1:30PM      |     LUNCH BREAK    |    
+| 1:30PM - 2:00PM       |         |
+| 2:00PM - 2:30PM       |         |    
+| 2:30PM - 3:00PM       |         |
+| 3:00PM - 3:30PM       |         |    
+| 3:30PM - 4:30PM       |         |
+| 4:30PM - 5:00PM       |         |    
+| 5:00PM - 5:30PM       |         |
 
