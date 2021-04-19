@@ -2,7 +2,7 @@
 
 ### **Application Description:**
 
-A website that displays a gropdown menu or a fill in text box where you can either select different specifications to find a certain vehicle, but you can also access the specifications of a certain vechile by typing in the vin #.
+A website that displays a dropdown menu or a fill in text box where you can either select different specifications to find a certain vehicle, but you can also access the specifications of a certain vechile by typing in the vin #.
 
 ### **API:**
 
@@ -36,10 +36,14 @@ https://www.carmd.com/car-image-api/
 - From the vechile vin # the application should be able to figure out what the vehicle's matching image is and as well as other statistics about it.
 - Be able 
 - Use responsive design by implementing media queries
+- Use flexbox to help organzie webpage
 
 ### **Post-MVP:**
 
 - Add another API!
+- Make more media queries
+- Add cool animations
+- Add filters?
 
 ### **Goals:**
 
