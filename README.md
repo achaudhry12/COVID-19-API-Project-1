@@ -40,11 +40,14 @@ https://www.carmd.com/car-image-api/
 
 ### MVP
 
-
+- Need a drop down menu that can acess every model, color, manufacturer, trim, etc
+- Need a input area to help supplemnt a secondary input of a VIN number
+- From these data points the website should be able to figure out what the vehicle's matching image is and as well as other statistics about it.
+- Use responsive design by implementing media queries
 
 ### Post-MVP
 
-
+- Add another API!
 
 ### Goals
 
@@ -56,7 +59,7 @@ The goal at the end of April 21st is to help refine the site more, add media que
 
 ### Priority Matrix
 
-
+![image](https://user-images.githubusercontent.com/82814499/115259627-0d4aa600-a100-11eb-956d-08c0cda78fc9.png)
 
 ### Timeframes
 
