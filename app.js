@@ -1,10 +1,10 @@
 // Create a dynamic dropdown menu from GET using Await/Axios and Try/Catch //
 
 const getOptions = async () => {
-  const url = 'https://covid-api.mmediagroup.fr/v1/cases?country'
+  const url = 'https://covid-api.mmediagroup.fr/v1/cases'
   try {
     const response = await axios.get(url)
-    // let countryList = Object.keys(response.data.cases.country)
+    let countryList = Object.keys(response.data.country)
     setOptions(countryList)
     return countryList
   }
@@ -49,8 +49,8 @@ form.addEventListener("submit", getValue)
 
 async function getCountryName(countryValue) {
   try {
-    const nameResponse = await axios.get(``)
-    // const nameURL = nameResponse.data
+    const nameResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases`)
+    const nameURL = nameResponse.data.confirmed
     appendName(nameURL)
     return nameURL
   }
@@ -59,3 +59,18 @@ async function getCountryName(countryValue) {
   }
 }
 
+// API request for confirmed cases //
+
+async function getConfirmedCases(confirmedValue) {
+  try {
+    const confirmedResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases`)
+    const confirmedURL = confirmedResponse.data.confirmed
+    append(confirmedURL)
+    return confirmedURL
+  }
+  catch (error) {
+    console.error(error)
+  }
+}
+
+// Create dynamic header tag //
