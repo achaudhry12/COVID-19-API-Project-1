@@ -129,7 +129,6 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 
 ### **MVP:**
 
-- Locate an utilize an external API with no authentification key or limited use
 - Have a table of contents that allows the user to skip to the section within the app.
 - Be able to render all worldwide stats on a 'Welcome Page'
 - Be able to have all the worldwide numbers render in real time since the data is live
@@ -140,6 +139,7 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 
 - Use media queries to help facilitate responsive desgin
 - Allow users to compare the stats of different countries
+- Allow users to choose specific countries regions or continents through a drop down menu/input, render those stats
 - Allow users to favorite countries so they remain on the screen
 - Add a second API that includes country images to help fill the screen with visuals
 - Add an interactive world map that people can click on
