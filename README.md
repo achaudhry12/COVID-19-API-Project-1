@@ -166,13 +166,13 @@ The One API - https://the-one-api.dev/
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |April 19| Project Approval | Incomplete
-|April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|April 20| Core Application Structure / connecting all urls and docs together| Incomplete
 |April 20| Pseudocode / actual code | Incomplete
-|April 21| Initial Clickable Model  | Incomplete
-|April 22| MVP | Incomplete
-|April 23| Presentations | Incomplete
+|April 21| Initial Clickable Model / Review with instructor  | Incomplete
+|April 22| Review MVP and Post-MVP| Incomplete
+|April 22| Turn in | Incomplete
 
 ### **Priority Matrix:**
 
@@ -198,7 +198,9 @@ Becasue of family plans my overall time frame for this project has been reduced 
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Reworking My API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Making HTML base structure | H | 1hrs| hrs | hrs |
+| Connecting Files to HTML| H | 1hrs| hrs | hrs |
+| Starting on JS | H | 1hrs| hrs | hrs |
+| Connecting Files to HTML| H | 1hrs| hrs | hrs |
 
