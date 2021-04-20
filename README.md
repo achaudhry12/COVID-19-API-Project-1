@@ -171,4 +171,7 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 | Connecting Files to HTML| H | 1hrs| hrs | hrs |
 | Starting on JS | H | 1hrs| hrs | hrs |
 | Connecting Files to HTML| H | 1hrs| hrs | hrs |
+| Coding out JS| H | 3hrs| hrs | hrs |
+| DeBug JS | H | 1hrs| hrs | hrs |
+| Code out CSS | H | 3hrs| hrs | hrs |
 
