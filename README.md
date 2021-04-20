@@ -164,11 +164,15 @@ The One API - https://the-one-api.dev/
 
 ### **Goals:**
 
-- The goal at the end of April 19th is to have all the JS and HTML done and finalized (if there is time add another API!)
-
-- The goal at the end of April 20th is to have all the CSS styling put on there and make the website look nice
-
-- The goal at the end of April 21st is to help refine the site more, add media queries to enable more flexiblity across displays, go through entire code, debug if necessary
+|  Day | Deliverable | Status
+|---|---| ---|
+|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|April 19| Project Approval | Incomplete
+|April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|April 20| Pseudocode / actual code | Incomplete
+|April 21| Initial Clickable Model  | Incomplete
+|April 22| MVP | Incomplete
+|April 23| Presentations | Incomplete
 
 ### **Priority Matrix:**
 
@@ -192,29 +196,9 @@ Becasue of family plans my overall time frame for this project has been reduced 
 | 4:30PM - 5:00PM       |     Review JS / BREAK    |    
 | 5:00PM - 5:30PM       |     Basic CSS manipulation, background colors, font size / family, colors and text styles(italics/bold)    |
 
-|  **Tuesday April 20**  |  **TASKS**  |
-| ---                 | ---       |
-| 9:15AM - 12:00AM      |         |    
-| 12:00PM - 12:30PM     |         |
-| 12:30PM - 1:30PM      |     LUNCH BREAK    |    
-| 1:30PM - 2:00PM       |         |
-| 2:00PM - 2:30PM       |         |    
-| 2:30PM - 3:00PM       |         |
-| 3:00PM - 3:30PM       |         |    
-| 3:30PM - 4:30PM       |         |
-| 4:30PM - 5:00PM       |         |    
-| 5:00PM - 5:30PM       |         |
-
-|  **Wednesday April 21**  |  **TASKS**  |
-| ---                 | ---       |
-| 9:15AM - 12:00AM      |         |    
-| 12:00PM - 12:30PM     |         |
-| 12:30PM - 1:30PM      |     LUNCH BREAK    |    
-| 1:30PM - 2:00PM       |         |
-| 2:00PM - 2:30PM       |         |    
-| 2:30PM - 3:00PM       |         |
-| 3:00PM - 3:30PM       |         |    
-| 3:30PM - 4:30PM       |         |
-| 4:30PM - 5:00PM       |         |    
-| 5:00PM - 5:30PM       |         |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Total | H | 6hrs| 5hrs | 5hrs |
 
