@@ -28,3 +28,11 @@ function setOptions(list) {
   return list
 }
 
+// Get option tag values //
+
+function getValue(e) {
+  e.preventDefault()
+  const optionValue = document.querySelector('#select-country').value
+  getCountryName(optionValue)
+  return optionValue
+}
