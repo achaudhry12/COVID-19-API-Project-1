@@ -1,12 +1,12 @@
-# 
+# COVID-19 API Project 1
 
 ### **Application Description:**
 
-
+Tihs application will display a live counter of all the COVID-19 cases, vaccinations, deaths and recoveries worldwide. Along this there will be an alternative section where there will be a drop down menu where people an interact and choose a specific country bringing up all the stats for that specific selection. The goal of this application is to offer a visually pleasing way to display all the COVID information worldide and in detail if necessary.
 
 ### **API:**
 
-
+COVID-19 API : https://covid-api.mmediagroup.fr/v1
 
 ### **API Snippet:**
 
@@ -123,16 +123,24 @@
 
 ### **Wireframe:**
 
-
-
+![image](https://user-images.githubusercontent.com/82814499/115401072-fc5d6b80-a1b7-11eb-83e3-b4a17501bb06.png)
 
 ### **MVP:**
 
-- 
+- Locate an utilize an external API with no authentification key or limited use
+- Have a table of contents that allows the user to skip to the section within the app.
+- Be able to render all worldwide stats on a 'Welcome Page'
+- Be able to have all the worldwide numbers render in real time since the data is live
+- Allow users to choose specific countries through a drop down menu/input, render those stats
+- Use flexbox to properly align all information on screen and have no overlap with previous information
 
 ### **Post-MVP:**
 
-- 
+- Use media queries to help facilitate responsive desgin
+- Allow users to compare the stats of different countries
+- Allow users to favorite countries so they remain on the screen
+- Add a second API that includes country images to help fill the screen with visuals
+- Add an interactive world map that people can click on
 
 ### **Goals:**
 
