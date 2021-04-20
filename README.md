@@ -133,7 +133,7 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 - Have a table of contents that allows the user to skip to the section within the app.
 - Be able to render all worldwide stats on a 'Welcome Page'
 - Be able to have all the worldwide numbers render in real time since the data is live
-- Allow users to choose specific countries through a drop down menu/input, render those stats
+- Allow users to choose specific countries regions or continents through a drop down menu/input, render those stats
 - Use flexbox to properly align all information on screen and have no overlap with previous information
 
 ### **Post-MVP:**
