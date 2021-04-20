@@ -4,7 +4,7 @@ const getOptions = async () => {
   const url = 'https://covid-api.mmediagroup.fr/v1/cases?country'
   try {
     const response = await axios.get(url)
-    let countryList = Object.keys(response.data.country)
+    // let countryList = Object.keys(response.data.cases.country)
     setOptions(countryList)
     return countryList
   }
@@ -45,4 +45,17 @@ const form = document.querySelector('form')
 form.addEventListener("submit", getValue)
 
 
-//
+// API request for country name //
+
+async function getCountryName(countryValue) {
+  try {
+    const nameResponse = await axios.get(``)
+    // const nameURL = nameResponse.data
+    appendName(nameURL)
+    return nameURL
+  }
+  catch (error) {
+    console.error(error)
+  }
+}
+
