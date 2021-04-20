@@ -129,20 +129,19 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 
 ### **MVP:**
 
-- Have a table of contents that allows the user to skip to the section within the app.
-- Be able to render all worldwide stats on a 'Welcome Page'
-- Be able to have all the worldwide numbers render in real time since the data is live
-- Allow users to choose specific countries regions or continents through a drop down menu/input, render those stats
-- Use flexbox to properly align all information on screen and have no overlap with previous information
+- Allow a user to access specific country data using a dropdown menu selector
+- Render country name, population data and number of covid cases
+- Remove previous country search data when new search is made
 
 ### **Post-MVP:**
 
+- Be able to render all worldwide stats on a 'Welcome Page'
+- Be able to have all the worldwide numbers render in real time since the data is live
 - Use media queries to help facilitate responsive desgin
 - Allow users to compare the stats of different countries
 - Allow users to choose specific countries regions or continents through a drop down menu/input, render those stats
 - Allow users to favorite countries so they remain on the screen
 - Add a second API that includes country images to help fill the screen with visuals
-- Add an interactive world map that people can click on
 
 ### **Goals:**
 
@@ -170,7 +169,6 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 | Making HTML base structure | H | 1hrs| hrs | hrs |
 | Connecting Files to HTML| H | 1hrs| hrs | hrs |
 | Starting on JS | H | 1hrs| hrs | hrs |
-| Connecting Files to HTML| H | 1hrs| hrs | hrs |
 | Coding out JS| H | 3hrs| hrs | hrs |
 | DeBug JS | H | 1hrs| hrs | hrs |
 | Code out CSS | H | 3hrs| hrs | hrs |
