@@ -6,9 +6,11 @@ Tihs application will display a live counter of all the COVID-19 cases, vaccinat
 
 ### **API:**
 
-COVID-19 API : https://covid-api.mmediagroup.fr/v1
+COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.md
 
 ### **API Snippet:**
+
+<pre>https://covid-api.mmediagroup.fr/v1</pre>
 
 <pre>GET /cases?country</span>=<span class="hljs-string">France</pre>
 
