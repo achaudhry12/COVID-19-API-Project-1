@@ -15,6 +15,7 @@ const getOptions = async () => {
 
 getOptions()
 
+
 // Create the form (dropdown menu) option tags //
 
 function setOptions(list) {
@@ -28,6 +29,7 @@ function setOptions(list) {
   return list
 }
 
+
 // Get option tag values //
 
 function getValue(e) {
@@ -36,3 +38,11 @@ function getValue(e) {
   getCountryName(optionValue)
   return optionValue
 }
+
+// Eventhandler //
+
+const form = document.querySelector('form')
+form.addEventListener("submit", getValue)
+
+
+//
