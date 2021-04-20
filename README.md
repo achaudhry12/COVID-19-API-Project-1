@@ -166,7 +166,7 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Reworking My API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Reworking My API Proposal | H | 3hrs| 2.5hrs | 2.5hrs |
 | Making HTML base structure | H | 1hrs| hrs | hrs |
 | Connecting Files to HTML| H | 1hrs| hrs | hrs |
 | Starting on JS | H | 1hrs| hrs | hrs |
