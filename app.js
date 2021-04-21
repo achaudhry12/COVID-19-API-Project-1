@@ -49,10 +49,9 @@ form.addEventListener("submit", getValue);
 
 // API request for country name //
 
-async function getCountryName(nameValue) {
+const getCountryName = async () => {
   try {
     const nameResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases?country=${getValue}`);
-    console.log(nameResponse)
     const name = nameResponse.data;
     appendName(name);
     return name;
@@ -62,7 +61,23 @@ async function getCountryName(nameValue) {
   }
 }
 
-getCountryName()
+// Create dynamic header tag for country name //
+
+// function appendName() {
+//   const name = documentCreateElement('h3');
+//   const nameText = document.createTextNode(`Name: ${countryValue}`);
+//   name.appendChild(nameText);
+//   document.getElementById("country-data-name").appendChild(name);
+// }
+
+
+// API request attempt 2 //
+
+function showCountryName(name) {
+  let nameResponse = axios.get(`https://covid-api.mmediagroup.fr/v1/cases?country=${getValue}`);
+  document.getElementById('country-data-name').innerHTML = `Country: ${nameResponse.data}`;
+  return nameResponse;
+}
 
 // API request for population data //
 
@@ -94,17 +109,6 @@ async function getConfirmedCases(confirmedValue) {
     console.error(error);
   }
 }
-
-
-// Create dynamic header tag for country name //
-
-function appendName() {
-  const name = documentCreateElement('h3');
-  const nameText = document.createTextNode(`Name: ${countryValue}`);
-  name.appendChild(nameText);
-  document.getElementById("country-data-name").appendChild(name);
-}
-
 
 
 // Remove previous text div //
