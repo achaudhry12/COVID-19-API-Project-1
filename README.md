@@ -148,8 +148,8 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 |  Day | Deliverable | Status
 |---|---| ---|
 |April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|April 19 All Day| Project Approval | Incomplete
-|April 20 Morning| Project Approval | Incomplete
+|April 19 All Day| Project Approval | Complete
+|April 20 Morning| Project Approval | Complete
 |April 20 Morning| Core Application Structure / HTML & JS| Incomplete
 |April 20 Afternoon| Pseudocode / Debug any bugs in JS | Incomplete
 |April 20 Night| Start on CSS | Incomplete
