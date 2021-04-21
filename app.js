@@ -4,7 +4,8 @@ const getOptions = async () => {
   const url = 'https://covid-api.mmediagroup.fr/v1/cases'
   try {
     const response = await axios.get(url)
-    let countryList = Object.keys(response.data.country)
+    let countryList = Object.keys(response.data)
+    // console.log(countryList)
     setOptions(countryList)
     return countryList
   }
@@ -39,6 +40,7 @@ function getValue(e) {
   return optionValue
 }
 
+
 // Eventhandler //
 
 const form = document.querySelector('form')
@@ -49,28 +51,56 @@ form.addEventListener("submit", getValue)
 
 async function getCountryName(countryValue) {
   try {
-    const nameResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases`)
-    const nameURL = nameResponse.data.confirmed
-    appendName(nameURL)
-    return nameURL
+    const nameResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases?country=${getValue}`)
+    const name = nameResponse.data
+    appendName(name)
+    return name
   }
   catch (error) {
     console.error(error)
   }
 }
+
+
+// API request for population data //
+
+async function getPopulationData(confirmedValue) {
+  try {
+    const populationResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases?country=${getValue}`)
+    const population = populationResponse.data.all.population
+    append(population)
+    return population
+  }
+  catch (error) {
+    console.error(error)
+  }
+}
+
 
 // API request for confirmed cases //
 
 async function getConfirmedCases(confirmedValue) {
   try {
-    const confirmedResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases`)
-    const confirmedURL = confirmedResponse.data.confirmed
-    append(confirmedURL)
-    return confirmedURL
+    const confirmedResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases?country=${getValue}`)
+    const confirmed = confirmedResponse.data.all.confirmed
+    append(confirmed)
+    return confirmed
   }
   catch (error) {
     console.error(error)
   }
 }
 
+
 // Create dynamic header tag //
+
+function appendText(textSrc) {
+  const textDiv = document.querySelector('#country-data')
+  const name = documentCreateElement('h3')
+  const pop = documentCreateElement('h3')
+  const confirm = documentCreateElement('h3')
+  h3 = textSrc
+  textDiv.append(name)
+  textDiv.append(pop)
+  textDiv.append(confirm)
+}
