@@ -104,3 +104,4 @@ function appendText(textSrc) {
   textDiv.append(pop)
   textDiv.append(confirm)
 }
+
