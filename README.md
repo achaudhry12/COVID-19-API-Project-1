@@ -131,7 +131,7 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 
 - Allow a user to access specific country data using a dropdown menu selector
 - Render country name, population data and number of covid cases
-- Remove previous country search data when new search is made
+- Replace previous country search data when new search is made
 
 ### **Post-MVP:**
 
@@ -150,8 +150,8 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 |April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |April 19 All Day| Project Approval | Complete
 |April 20 Morning| Project Approval | Complete
-|April 20 Morning| Core Application Structure / HTML & JS| Incomplete
-|April 20 Afternoon| Pseudocode / Debug any bugs in JS | Incomplete
+|April 20 Morning| Core Application Structure / HTML & JS| Complete
+|April 20 Afternoon| Pseudocode / Debug any bugs in JS | Complete
 |April 20 Night| Start on CSS | Incomplete
 |April 21 Morning| Initial Clickable Model / Review with instructor  | Incomplete
 |April 22 Afternoon| Review MVP and Post-MVP| Incomplete
