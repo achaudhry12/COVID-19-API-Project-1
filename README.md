@@ -2,7 +2,7 @@
 
 ### **Application Description:**
 
-Tihs application will display a live counter of all the COVID-19 cases, deaths and recoveries worldwide. Along this there will be an alternative section where there will be a drop down menu where people an interact and choose a specific country bringing up all the stats for that specific selection. These stats will include genral country data and stats relating to COVID-19. The goal of this application is to offer a visually pleasing way to display all the COVID information worldide and in detail for a slected country.
+Tihs application will display a section where there will be a drop down menu where people can interact and choose a specific country bringing up all the stats for that specific selection. These stats will include genral country data and stats relating to COVID-19. The goal of this application is to aquire COVID-19 data for many countries from a public API and display it on the webpage in a visually pleasing way.
 
 ### **API:**
 
@@ -135,9 +135,7 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 
 ### **Post-MVP:**
 
-- Be able to render all worldwide stats on a 'Welcome Page'
-- Be able to have all the worldwide numbers render in real time since the data is live
-- Use media queries to help facilitate responsive desgin
+- Use media queries to help facilitate responsive desgin for a tablet (iPad 770px)
 - Allow users to compare the stats of different countries
 - Allow users to choose specific countries regions or continents through a drop down menu/input, render those stats
 - Allow users to favorite countries so they remain on the screen
@@ -152,10 +150,10 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 |April 20 Morning| Project Approval | Complete
 |April 20 Morning| Core Application Structure / HTML & JS| Complete
 |April 20 Afternoon| Pseudocode / Debug any bugs in JS | Complete
-|April 20 Night| Start on CSS | Incomplete
-|April 21 Morning| Initial Clickable Model / Review with instructor  | Incomplete
-|April 22 Afternoon| Review MVP and Post-MVP| Incomplete
-|April 22 Night| Turn in | Incomplete
+|April 20 Night| Start on CSS | Complete
+|April 21 Morning| Initial Clickable Model / Review with instructor  | Complete
+|April 22 Afternoon| Review MVP and Post-MVP| Complete
+|April 22 Night| Turn in | Complete
 
 ### **Priority Matrix:**
 
@@ -166,10 +164,11 @@ COVID-19 API : https://github.com/M-Media-Group/Covid-19-API/blob/master/README.
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Reworking My API Proposal | H | 3hrs| 2.5hrs | 2.5hrs |
-| Making HTML base structure | H | 1hrs| hrs | hrs |
-| Connecting Files to HTML| H | 1hrs| hrs | hrs |
-| Starting on JS | H | 1hrs| hrs | hrs |
-| Coding out JS| H | 3hrs| hrs | hrs |
-| DeBug JS | H | 1hrs| hrs | hrs |
-| Code out CSS | H | 3hrs| hrs | hrs |
-
+| Making HTML base structure | H | 1hrs| .5hrs | .25hrs |
+| Connecting Files to HTML| H | 1hrs| .5hrs | .5hrs |
+| Create a dynamic dropdown menu | H | 1hrs| .5hrs | .5hrs |
+| From option tags and assign values| H | 3hrs| 2.5hrs | 2.5hrs |
+| Add Eventhandler | H | 1hrs| .5hrs | .5hrs |
+| API request for data and create dynamic text | H | 3hrs| 4hrs | 4hrs |
+| Code CSS | L | 3hrs| 1.5hrs | 1.5hrs |
+| Add media queries | L | 1hrs| .25hrs | .25hrs |
