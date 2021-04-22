@@ -73,3 +73,4 @@ const getCountryName = async (getName) => {
     console.error(error);
   }
 }
+
