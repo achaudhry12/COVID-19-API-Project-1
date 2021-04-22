@@ -38,19 +38,22 @@ form {
 button {
   padding: 20px 40px 20px 40px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 #country-data {
-  text-align: center;
   border: 3px solid grey;
   padding: 10px 10px 30px 10px;
   margin: 50px 125px 10px 125px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 #country-stats,
 #covid-stats {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #country-data-name {

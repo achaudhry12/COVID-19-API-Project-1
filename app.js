@@ -67,6 +67,8 @@ const getCountryName = async (getName) => {
     document.getElementById('country-data-recovered').innerHTML = `Recovered: ${recovered}`;
     const deaths = nameResponse.data.All.deaths;
     document.getElementById('country-data-deaths').innerHTML = `Deaths: ${deaths}`;
+    const update = nameResponse.data.All.updated;
+    document.getElementById('item').innerHTML = `Last Updated: ${update}`;
     return name;
   }
   catch (error) {
