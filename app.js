@@ -48,25 +48,6 @@ const form = document.querySelector('form');
 form.addEventListener("submit", getValue);
 
 
-// API request for country flag and create dynamic tag //
-
-// const getCountryFlag = async (country) => {
-//   try {
-//     const response = await axios.get(`https://restcountries.eu/rest/v2/name/${country}?fullText=true`)
-//     showCountryFlag(response.data[0])
-//     return response
-//   }
-//   catch (error) {
-//     console.error(error);
-//   }
-// }
-
-// function showCountryFlag(data) {
-//   let countryFlag = `<img src= "${data.flag}" alt="country-flag" style="width: 250px; height: auto; border: 1px solid black"></img>`
-//   document.querySelector('#country-flag').insertAdjacentHTML('beforeend', countryFlag)
-//   return countryData
-// }
-
 // API request for data and create dynamic header//
 
 const getCountryName = async (getName) => {
@@ -85,14 +66,10 @@ const getCountryName = async (getName) => {
     const recovered = nameResponse.data.All.recovered;
     document.getElementById('country-data-recovered').innerHTML = `Recovered: ${recovered}`;
     const deaths = nameResponse.data.All.deaths;
-    document.getElementById('country-data-deaths').innerHTML = `Capital City: ${deaths}`;
+    document.getElementById('country-data-deaths').innerHTML = `Deaths: ${deaths}`;
     return name;
   }
   catch (error) {
     console.error(error);
   }
 }
-
-
-
-
