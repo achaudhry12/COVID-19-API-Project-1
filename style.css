@@ -1,0 +1,55 @@
+* {
+  font-family: 'Sarabun', sans-serif;
+}
+
+#title-div {
+  background-image: url("https://www.umw.edu/covidcourse/wp-content/uploads/sites/51/2020/05/COVID-19_header.jpg");
+  padding: 125px 0 125px 10px;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#subtitle {
+  font-size: 40px;
+}
+
+#my-name {
+  font-size: 30px;
+}
+
+form {
+  text-align: center;
+  background-color: #dc143c;
+  padding: 20px 0 50px 0;
+  margin: 50px 250px 10px 250px;
+}
+
+#choose {
+  font-size: 20px;
+  color: lightgray;
+  background-color: #dc143c;
+}
+
+#select-country,
+button {
+  padding: 20px 40px 20px 40px;
+}
+
+#country-data {
+  border: 3px solid grey;
+  padding: 20px 0 20px 50px;
+}
+
+#country-stats,
+#covid-stats {
+  font-size: 30px;
+}
+
+#country-data-name {
+  font-size: 40px;
+  text-align: center;
+}
+
+

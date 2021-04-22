@@ -5,29 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script defer src="./app.js"></script>
   <title>COVID-19 Database</title>
 </head>
 <body>
-  <h1>COVID-19 World Tracker</h1>
+  <div id="title-div">
+    <h1 id="title">COVID-19 World Tracker</h1>
+    <h2 id="subtitle">Unit 1 Project</h2>
+    <h3 id="my-name">Anss Chaudhry</h3>
+  </div>
+
   <form>
+    <h1 id="choose">Choose Country Below:</h1>
     <select id="select-country">
       <option>Choose Country</option>
     </select>
     <button>Show Data</button>
   </form>
-  
-  <div>
+
+  <div id="country-flag"></div>
+
+  <div id="country-data">
     <h2 id="country-data-name"></h2>
-    <h3>Country Stats:</h3>
+    <h3 id="country-stats">Country Stats:</h3>
     <h4 id="country-data-capital"></h4>
     <h4 id="country-data-population"></h4>
     <h4 id="country-data-sqkm"></h4>
-    <h3>COVID-19 Cases Stats:</h3>
+    <h3 id="covid-stats">COVID-19 Cases Stats:</h3>
     <h4 id="country-data-confirmed"></h4>
     <h4 id="country-data-recovered"></h4>
     <h4 id="country-data-deaths"></h4>
   </div>
+
 </body>
 </html>
