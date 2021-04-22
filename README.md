@@ -2,7 +2,7 @@
 
 ### **Application Description:**
 
-Tihs application will display a live counter of all the COVID-19 cases, vaccinations, deaths and recoveries worldwide. Along this there will be an alternative section where there will be a drop down menu where people an interact and choose a specific country bringing up all the stats for that specific selection. The goal of this application is to offer a visually pleasing way to display all the COVID information worldide and in detail if necessary.
+Tihs application will display a live counter of all the COVID-19 cases, deaths and recoveries worldwide. Along this there will be an alternative section where there will be a drop down menu where people an interact and choose a specific country bringing up all the stats for that specific selection. These stats will include genral country data and stats relating to COVID-19. The goal of this application is to offer a visually pleasing way to display all the COVID information worldide and in detail for a slected country.
 
 ### **API:**
 
