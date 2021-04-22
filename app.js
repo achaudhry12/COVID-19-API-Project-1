@@ -33,11 +33,14 @@ function setOptions(list) {
 
 // Get option tag values //
 
+let tempName = null
+
 function getValue(e) {
   e.preventDefault();
   const optionValue = document.querySelector('#select-country').value;
-  getCountryName(optionValue);
-  return optionValue;
+  tempName = optionValue;
+  // console.log(optionValue)
+  getCountryName(optionValue)
 }
 
 
@@ -49,11 +52,12 @@ form.addEventListener("submit", getValue);
 
 // API request for country name //
 
-const getCountryName = async () => {
+const getCountryName = async (getName) => {
   try {
-    const nameResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases?country=${getValue}`);
-    const name = nameResponse.data;
-    appendName(name);
+    const nameResponse = await axios.get(`https://covid-api.mmediagroup.fr/v1/cases?country=${getName}`);
+    const name  = nameResponse.data.all;
+    // appendName(name);
+    console.log(name);
     return name;
   }
   catch (error) {
@@ -63,21 +67,20 @@ const getCountryName = async () => {
 
 // Create dynamic header tag for country name //
 
-// function appendName() {
-//   const name = documentCreateElement('h3');
-//   const nameText = document.createTextNode(`Name: ${countryValue}`);
-//   name.appendChild(nameText);
-//   document.getElementById("country-data-name").appendChild(name);
+// function appendName(getName) {
+//   const nameText = document.createTextNode(`Country: ${getName}`);
+//   getName.appendChild(nameText);
+//   document.getElementById("country-data-name").appendChild(getName);
 // }
 
 
 // API request attempt 2 //
 
-function showCountryName(name) {
-  let nameResponse = axios.get(`https://covid-api.mmediagroup.fr/v1/cases?country=${getValue}`);
-  document.getElementById('country-data-name').innerHTML = `Country: ${nameResponse.data}`;
-  return nameResponse;
-}
+// function showCountryName(name) {
+//   let nameResponse = axios.get(`https://covid-api.mmediagroup.fr/v1/cases?country=${getValue}`);
+//   document.getElementById('country-data-name').innerHTML = `Country: ${nameResponse.data}`;
+//   return nameResponse;
+// }
 
 // API request for population data //
 
