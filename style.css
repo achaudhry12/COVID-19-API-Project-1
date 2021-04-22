@@ -1,10 +1,12 @@
-* {
+body {
+  background-color: lightgray;
   font-family: 'Sarabun', sans-serif;
 }
 
 #title-div {
   background-image: url("https://www.umw.edu/covidcourse/wp-content/uploads/sites/51/2020/05/COVID-19_header.jpg");
-  padding: 125px 0 125px 10px;
+  background-size: cover;
+  padding: 75px 0 50px 30px;
 }
 
 #title {
@@ -23,11 +25,11 @@ form {
   text-align: center;
   background-color: #dc143c;
   padding: 20px 0 50px 0;
-  margin: 50px 250px 10px 250px;
+  margin: 50px 125px 10px 125px;
 }
 
 #choose {
-  font-size: 20px;
+  font-size: 25px;
   color: lightgray;
   background-color: #dc143c;
 }
@@ -35,15 +37,19 @@ form {
 #select-country,
 button {
   padding: 20px 40px 20px 40px;
+  font-size: 15px;
 }
 
 #country-data {
+  text-align: center;
   border: 3px solid grey;
-  padding: 20px 0 20px 50px;
+  padding: 10px 10px 30px 10px;
+  margin: 50px 125px 10px 125px;
 }
 
 #country-stats,
 #covid-stats {
+  font-weight: 900;
   font-size: 30px;
 }
 
@@ -53,3 +59,18 @@ button {
 }
 
 
+@media only screen and (max-width: 770px) {
+  form {
+    margin: 5% 10%;
+  }
+
+  #select-country,
+  button {
+    padding: 5% 5%;
+    font-size: 15px;
+  }
+
+  #country-data {
+    margin: 5% 10%;
+  }
+}

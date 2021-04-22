@@ -75,17 +75,17 @@ const getCountryName = async (getName) => {
     const name = nameResponse.data.All.country;
     document.getElementById('country-data-name').innerHTML = `${name}`;
     const capital = nameResponse.data.All.capital_city;
-    document.getElementById('country-data-capital').innerHTML = `Capital City:   ${capital}`;
+    document.getElementById('country-data-capital').innerHTML = `Capital City: ${capital}`;
     const population = nameResponse.data.All.population;
-    document.getElementById('country-data-population').innerHTML = `Population:   ${population}`;
+    document.getElementById('country-data-population').innerHTML = `Population: ${population}`;
     const sqkm = nameResponse.data.All.sq_km_area;
-    document.getElementById('country-data-sqkm').innerHTML = `Sq-Km:   ${sqkm}`;
+    document.getElementById('country-data-sqkm').innerHTML = `Sq-Km: ${sqkm}`;
     const confirmed = nameResponse.data.All.confirmed;
-    document.getElementById('country-data-confirmed').innerHTML = `Confirmed:   ${confirmed}`;
+    document.getElementById('country-data-confirmed').innerHTML = `Confirmed: ${confirmed}`;
     const recovered = nameResponse.data.All.recovered;
-    document.getElementById('country-data-recovered').innerHTML = `Recovered:   ${recovered}`;
+    document.getElementById('country-data-recovered').innerHTML = `Recovered: ${recovered}`;
     const deaths = nameResponse.data.All.deaths;
-    document.getElementById('country-data-deaths').innerHTML = `Capital City:   ${deaths}`;
+    document.getElementById('country-data-deaths').innerHTML = `Capital City: ${deaths}`;
     return name;
   }
   catch (error) {
